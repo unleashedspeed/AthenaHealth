@@ -12,6 +12,14 @@
 		0965E8D9210086B2002CBC96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0965E8D7210086B2002CBC96 /* Main.storyboard */; };
 		0965E8DB210086B4002CBC96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0965E8DA210086B4002CBC96 /* Assets.xcassets */; };
 		0965E8DE210086B4002CBC96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0965E8DC210086B4002CBC96 /* LaunchScreen.storyboard */; };
+		0965E8EA2100875D002CBC96 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0965E8E92100875D002CBC96 /* APIService.swift */; };
+		0965E8ED210089DB002CBC96 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0965E8EC210089DB002CBC96 /* Record.swift */; };
+		0965E8F12100951A002CBC96 /* SentenceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0965E8EF2100951A002CBC96 /* SentenceTableViewCell.swift */; };
+		0965E8F22100951A002CBC96 /* SentenceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0965E8F02100951A002CBC96 /* SentenceTableViewCell.xib */; };
+		0965E8F521009681002CBC96 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0965E8F421009681002CBC96 /* UIView+Extension.swift */; };
+		09A94A292100AB6100148074 /* SectionFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A94A272100AB6100148074 /* SectionFooterView.swift */; };
+		09A94A2A2100AB6100148074 /* SectionFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09A94A282100AB6100148074 /* SectionFooterView.xib */; };
+		3ACF6204BE595DFED4368609 /* Pods_AthenaHealth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD055B7E9917F324BEC4CB83 /* Pods_AthenaHealth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,16 @@
 		0965E8DA210086B4002CBC96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0965E8DD210086B4002CBC96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0965E8DF210086B4002CBC96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0965E8E92100875D002CBC96 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		0965E8EC210089DB002CBC96 /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		0965E8EF2100951A002CBC96 /* SentenceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentenceTableViewCell.swift; sourceTree = "<group>"; };
+		0965E8F02100951A002CBC96 /* SentenceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SentenceTableViewCell.xib; sourceTree = "<group>"; };
+		0965E8F421009681002CBC96 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		09A94A272100AB6100148074 /* SectionFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionFooterView.swift; sourceTree = "<group>"; };
+		09A94A282100AB6100148074 /* SectionFooterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SectionFooterView.xib; sourceTree = "<group>"; };
+		3197E5C1BAC6F766C49E9903 /* Pods-AthenaHealth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AthenaHealth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AthenaHealth/Pods-AthenaHealth.debug.xcconfig"; sourceTree = "<group>"; };
+		B5DFDCBB14870725E83CFD77 /* Pods-AthenaHealth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AthenaHealth.release.xcconfig"; path = "Pods/Target Support Files/Pods-AthenaHealth/Pods-AthenaHealth.release.xcconfig"; sourceTree = "<group>"; };
+		DD055B7E9917F324BEC4CB83 /* Pods_AthenaHealth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AthenaHealth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ACF6204BE595DFED4368609 /* Pods_AthenaHealth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +59,8 @@
 			children = (
 				0965E8D2210086B2002CBC96 /* AthenaHealth */,
 				0965E8D1210086B2002CBC96 /* Products */,
+				AF5492448BDEF7A452A1241C /* Pods */,
+				4D7860214BFD46B36B9D0193 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +75,94 @@
 		0965E8D2210086B2002CBC96 /* AthenaHealth */ = {
 			isa = PBXGroup;
 			children = (
-				0965E8D3210086B2002CBC96 /* AppDelegate.swift */,
-				0965E8D5210086B2002CBC96 /* ViewController.swift */,
-				0965E8D7210086B2002CBC96 /* Main.storyboard */,
-				0965E8DA210086B4002CBC96 /* Assets.xcassets */,
-				0965E8DC210086B4002CBC96 /* LaunchScreen.storyboard */,
-				0965E8DF210086B4002CBC96 /* Info.plist */,
+				0965E8F32100966C002CBC96 /* Extensions */,
+				0965E8EE210094D7002CBC96 /* TableView Cells */,
+				0965E8EB210089B2002CBC96 /* Data Models */,
+				0965E8E821008746002CBC96 /* Networking */,
+				0965E8E5210086C5002CBC96 /* Supporting Files */,
+				0965E8E7210086E7002CBC96 /* View Controllers */,
+				0965E8E6210086E0002CBC96 /* Storyboards */,
 			);
 			path = AthenaHealth;
+			sourceTree = "<group>";
+		};
+		0965E8E5210086C5002CBC96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0965E8D3210086B2002CBC96 /* AppDelegate.swift */,
+				0965E8DA210086B4002CBC96 /* Assets.xcassets */,
+				0965E8DF210086B4002CBC96 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0965E8E6210086E0002CBC96 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0965E8D7210086B2002CBC96 /* Main.storyboard */,
+				0965E8DC210086B4002CBC96 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		0965E8E7210086E7002CBC96 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0965E8D5210086B2002CBC96 /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		0965E8E821008746002CBC96 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				0965E8E92100875D002CBC96 /* APIService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		0965E8EB210089B2002CBC96 /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				0965E8EC210089DB002CBC96 /* Record.swift */,
+			);
+			path = "Data Models";
+			sourceTree = "<group>";
+		};
+		0965E8EE210094D7002CBC96 /* TableView Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0965E8EF2100951A002CBC96 /* SentenceTableViewCell.swift */,
+				0965E8F02100951A002CBC96 /* SentenceTableViewCell.xib */,
+				09A94A272100AB6100148074 /* SectionFooterView.swift */,
+				09A94A282100AB6100148074 /* SectionFooterView.xib */,
+			);
+			path = "TableView Cells";
+			sourceTree = "<group>";
+		};
+		0965E8F32100966C002CBC96 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0965E8F421009681002CBC96 /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4D7860214BFD46B36B9D0193 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD055B7E9917F324BEC4CB83 /* Pods_AthenaHealth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF5492448BDEF7A452A1241C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3197E5C1BAC6F766C49E9903 /* Pods-AthenaHealth.debug.xcconfig */,
+				B5DFDCBB14870725E83CFD77 /* Pods-AthenaHealth.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0965E8E2210086B4002CBC96 /* Build configuration list for PBXNativeTarget "AthenaHealth" */;
 			buildPhases = (
+				A5ED3D16BD1CC1D25F28CF05 /* [CP] Check Pods Manifest.lock */,
 				0965E8CC210086B2002CBC96 /* Sources */,
 				0965E8CD210086B2002CBC96 /* Frameworks */,
 				0965E8CE210086B2002CBC96 /* Resources */,
+				DB26647ED46039A3B1A07CDE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,18 +227,64 @@
 			files = (
 				0965E8DE210086B4002CBC96 /* LaunchScreen.storyboard in Resources */,
 				0965E8DB210086B4002CBC96 /* Assets.xcassets in Resources */,
+				09A94A2A2100AB6100148074 /* SectionFooterView.xib in Resources */,
+				0965E8F22100951A002CBC96 /* SentenceTableViewCell.xib in Resources */,
 				0965E8D9210086B2002CBC96 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A5ED3D16BD1CC1D25F28CF05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AthenaHealth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB26647ED46039A3B1A07CDE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AthenaHealth/Pods-AthenaHealth-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AthenaHealth/Pods-AthenaHealth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0965E8CC210086B2002CBC96 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0965E8F521009681002CBC96 /* UIView+Extension.swift in Sources */,
+				0965E8F12100951A002CBC96 /* SentenceTableViewCell.swift in Sources */,
 				0965E8D6210086B2002CBC96 /* ViewController.swift in Sources */,
+				0965E8EA2100875D002CBC96 /* APIService.swift in Sources */,
+				0965E8ED210089DB002CBC96 /* Record.swift in Sources */,
+				09A94A292100AB6100148074 /* SectionFooterView.swift in Sources */,
 				0965E8D4210086B2002CBC96 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,11 +427,12 @@
 		};
 		0965E8E3210086B4002CBC96 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3197E5C1BAC6F766C49E9903 /* Pods-AthenaHealth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RYBKJDVS76;
-				INFOPLIST_FILE = AthenaHealth/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AthenaHealth/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,11 +446,12 @@
 		};
 		0965E8E4210086B4002CBC96 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5DFDCBB14870725E83CFD77 /* Pods-AthenaHealth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RYBKJDVS76;
-				INFOPLIST_FILE = AthenaHealth/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AthenaHealth/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
